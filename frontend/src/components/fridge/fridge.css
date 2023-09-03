@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.fridgeList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+#itemBar{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.addBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#itemValue{
+    width:90%;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+#item{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    height: 450px;
+    overflow: scroll;
+}
+
+#noitems {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.trash {
+    cursor: pointer;
+}
+
+#addItem{
+    margin-right: 10px;
+}
+
+#button {
+    background-color: #1E6AB1;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 16px;
+}

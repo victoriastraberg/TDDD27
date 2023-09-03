@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.recipeList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.recipeBar {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#addRecipe,
+#addIngredient,
+#addLink {
+    margin-bottom: 50px;
+    margin: 5px;
+    height: 26px;
+    width: 180px;
+    font-size: 16px;
+}
+
+#item {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 550px;
+    height: 450px;
+    overflow: scroll;
+}
+
+.btnrecipe {
+    padding: 5;
+    border: none;
+    width: 100%;
+    background: none;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+#dropdown-content {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 14px;
+}
+
+.alink:link,
+.alink:visited {
+    background-color: #1E6AB1;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.alink:hover,
+.alink:active {
+    background-color: #1b5f9f
+}
+
+#button {
+    background-color: #1E6AB1;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 16px;
+}

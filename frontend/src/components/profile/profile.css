@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: monospace, Monaco;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #88BAE9;
+}
+
+.col {
+    text-align: center;
+}
+
+.row2 {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.profile_box {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    padding-bottom: 60px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 50px;
+    background-color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.btn {
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+}
+
+.btn-primary {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 260px;
+}
